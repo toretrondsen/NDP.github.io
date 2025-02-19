@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Svarrarapport</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Svarrarapport</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-BusinessObject"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-BusinessObject" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Et papir- eller elektronisk dokument som inneholder all informasjon, det vil si alle enkeltresultater generert fra pr&#248;ven, til en diagnose/konklusjon. Det inkluderer ogs&#229; all informasjon fra rekvisisjonen.&#160;Best&#229;r prinsipielt av to "komponenter"; 1) selve informasjonen og 2) hvordan informasjon skal presenteres &#160;("visningen")- &#160;inkluderte plassering og bruk av ledetekster.&#160;De fleste LIMS produserer b&#229;de elektronisk svar og utskriftsversjon. I Norge benyttes eHelses XML-baserte svarrapport. https://ehelse.no/standarder-kodeverk-og-referansekatalog/standarder-og-referansekatalog/svarrapportering-av-medisinske-tjenester-v14-his-808222014</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-ddcdaa2e-8c37-4ab5-b831-3e1d531f25e0">
+																	<td><a href="../views/ddcdaa2e-8c37-4ab5-b831-3e1d531f25e0.html" target="view" title="Kasus"> Kasus </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-2b651eba-9516-47d3-b3f3-de070fb63065">
+																	<td><a href="../views/2b651eba-9516-47d3-b3f3-de070fb63065.html" target="view" title="Hovedprosess"> Hovedprosess </a></td>
+																	<td><span class="i18n-viewpoint-business_process_cooperation" /></td>
+																</tr><tr id="used-in-views-42e40af2-cd18-4882-8c03-977421222b6b">
+																	<td><a href="../views/42e40af2-cd18-4882-8c03-977421222b6b.html" target="view" title="Interregional digital patologi - kontekst diagram"> Interregional digital patologi - kontekst diagram </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-e1ccda76-7d9a-474b-86df-f1725fd5d0af">
+																	<td><a href="../views/e1ccda76-7d9a-474b-86df-f1725fd5d0af.html" target="view" title="Svarrapport forenklet m kodeverk"> Svarrapport forenklet m kodeverk </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-e34f4b39-2102-47ed-b013-1119e0710578">
+																	<td><a href="../views/e34f4b39-2102-47ed-b013-1119e0710578.html" target="view" title="Svarrapport m kodeverk uten rekvisisjon"> Svarrapport m kodeverk uten rekvisisjon </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-e9aad9fb-793b-456b-a523-c23a13836cb3">
+																	<td><a href="../views/e9aad9fb-793b-456b-a523-c23a13836cb3.html" target="view" title="Prosess Vurder kasus"> Prosess Vurder kasus </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-bdcf52a9-0833-4078-9220-75fa430939d0">
+																	<td><a href="../views/bdcf52a9-0833-4078-9220-75fa430939d0.html" target="view" title="Svarrapport med kodeverk"> Svarrapport med kodeverk </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-315b1502-99b3-46c3-ad96-3eff5434e8d7">
+																	<td><a href="../views/315b1502-99b3-46c3-ad96-3eff5434e8d7.html" target="view" title="Vurder kasus AS IS"> Vurder kasus AS IS </a></td>
+																	<td><span class="i18n-viewpoint-business_process_cooperation" /></td>
+																</tr><tr id="used-in-views-d5ffe6c0-e4f2-4792-a5ec-317b6c338e9c">
+																	<td><a href="../views/d5ffe6c0-e4f2-4792-a5ec-317b6c338e9c.html" target="view" title="Domenemodell"> Domenemodell </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-fcb42e1a-e9db-4f29-b1ad-47025ef38323">
+																	<td><a href="../views/fcb42e1a-e9db-4f29-b1ad-47025ef38323.html" target="view" title="Hovedprosess AS IS"> Hovedprosess AS IS </a></td>
+																	<td><span class="i18n-viewpoint-business_process_cooperation" /></td>
+																</tr><tr id="used-in-views-ecb7f671-9bd4-476e-b926-7fb6aea60afd">
+																	<td><a href="../views/ecb7f671-9bd4-476e-b926-7fb6aea60afd.html" target="view" title="Svarrapport"> Svarrapport </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-155183e2-ad22-4a79-bec2-83ad980f8bc5">
+																	<td><a href="../views/155183e2-ad22-4a79-bec2-83ad980f8bc5.html" target="view" title="Prosess Send svarrapport"> Prosess Send svarrapport </a></td>
+																	<td><span class="i18n-viewpoint-business_process_cooperation" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/3b6ce3f7-762b-411b-abd0-6ec202695943.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/27af5f62-9f42-4a5d-8c4f-f103d485af76.html" target="element"> Svarrarapport</a></td>
+											<td><a href="../elements/f3f4991b-ed47-4468-809b-728bc3f16fd6.html" target="element"> Mikroskopibeskrivelse</a></td>
+										</tr><tr>
+											<td><a href="../elements/ab54cc8a-3843-4787-94d8-2047ea176710.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/27af5f62-9f42-4a5d-8c4f-f103d485af76.html" target="element"> Svarrarapport</a></td>
+											<td><a href="../elements/d84f9edb-d662-4779-8bde-0cde22b9f883.html" target="element"> Analyseresultat</a></td>
+										</tr><tr>
+											<td><a href="../elements/cd71f6e3-89c0-495d-b937-c7b81a178d93.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/27af5f62-9f42-4a5d-8c4f-f103d485af76.html" target="element"> Svarrarapport</a></td>
+											<td><a href="../elements/c6ba4d57-c186-4b00-9d49-218e2c8ba099.html" target="element"> Kasus</a></td>
+										</tr><tr>
+											<td><a href="../elements/d6d18440-af7c-4668-82dc-ad81cff364dd.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/27af5f62-9f42-4a5d-8c4f-f103d485af76.html" target="element"> Svarrarapport</a></td>
+											<td><a href="../elements/2b92ea99-9079-47e9-8a32-426e32d61d46.html" target="element"> Makrobeskrivelse</a></td>
+										</tr><tr>
+											<td><a href="../elements/2b7e0610-67b9-4a9b-aab0-bf000e7aca7e.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/27af5f62-9f42-4a5d-8c4f-f103d485af76.html" target="element"> Svarrarapport</a></td>
+											<td><a href="../elements/cb3b3b06-76d2-4822-8495-a56080e718d5.html" target="element"> Svarrapportering</a></td>
+										</tr><tr>
+											<td><a href="../elements/60980f8c-5257-41e2-a2b2-b5e84342103b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/27af5f62-9f42-4a5d-8c4f-f103d485af76.html" target="element"> Svarrarapport</a></td>
+											<td><a href="../elements/fdc71c5f-62d0-45aa-9b8d-01f3f3b41aa0.html" target="element"> Kasusvurdering</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/048b7ea4-aced-4eca-b992-bc00cbbe6467.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/8a3a53eb-78ce-4d38-9107-82a302c50113.html" target="element"> 1.6.1 Send svarrapport til svarmottakere</a></td>
+											<td><a href="../elements/27af5f62-9f42-4a5d-8c4f-f103d485af76.html" target="element"> Svarrarapport</a></td>
+										</tr><tr>
+											<td><a href="../elements/36be6c43-9fd8-40e1-914a-fcbf55267d65.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/d86ee6e8-bd50-4d6b-a138-581ddbd951cb.html" target="element"> 1.6.2 Send rapporter til offentlige registre</a></td>
+											<td><a href="../elements/27af5f62-9f42-4a5d-8c4f-f103d485af76.html" target="element"> Svarrarapport</a></td>
+										</tr><tr>
+											<td><a href="../elements/59b424ef-0e45-4abe-9157-71878ed2cdfe.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/3622ebc2-e1ad-4c26-874f-63317d3d2f55.html" target="element"> LIMS</a></td>
+											<td><a href="../elements/27af5f62-9f42-4a5d-8c4f-f103d485af76.html" target="element"> Svarrarapport</a></td>
+										</tr><tr>
+											<td><a href="../elements/7ee49f30-e685-47cd-9da3-428dcb7c4798.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/0083e282-6ae0-4dbc-bc25-4429aae5c8e5.html" target="element"> LIMS</a></td>
+											<td><a href="../elements/27af5f62-9f42-4a5d-8c4f-f103d485af76.html" target="element"> Svarrarapport</a></td>
+										</tr><tr>
+											<td><a href="../elements/9ef257f7-d818-4dc9-b4c0-6de4dc3d3492.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/c6d1f8a2-55c1-4fa7-aa07-de50fd9d46d6.html" target="element"> 1.6 Send svarrapport</a></td>
+											<td><a href="../elements/27af5f62-9f42-4a5d-8c4f-f103d485af76.html" target="element"> Svarrarapport</a></td>
+										</tr><tr>
+											<td><a href="../elements/9f63db27-69e6-4b6c-be48-219a44304360.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/d9813ca4-1523-4283-89b2-7ee465f1984f.html" target="element"> Utarbeid og signer svarrapport</a></td>
+											<td><a href="../elements/27af5f62-9f42-4a5d-8c4f-f103d485af76.html" target="element"> Svarrarapport</a></td>
+										</tr><tr>
+											<td><a href="../elements/eb055e5d-a405-4447-a73f-3930cae2a23a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/6c1864a6-cd96-4e99-8b81-a856e8b9cb0c.html" target="element"> 1.7 Motta svarrapport</a></td>
+											<td><a href="../elements/27af5f62-9f42-4a5d-8c4f-f103d485af76.html" target="element"> Svarrarapport</a></td>
+										</tr><tr>
+											<td><a href="../elements/8e2a06f8-b894-4dc2-ab96-f6cc278b1b26.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/c1bcce60-939c-455b-b297-3c9f2b393d3e.html" target="element"> Rekvisisjon</a></td>
+											<td><a href="../elements/27af5f62-9f42-4a5d-8c4f-f103d485af76.html" target="element"> Svarrarapport</a></td>
+										</tr><tr>
+											<td><a href="../elements/3915ce85-471b-4503-8f55-ed37a50905e5.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/1539109c-6ea3-4fd9-83c1-119630d0f9b4.html" target="element"> Svarmelding</a></td>
+											<td><a href="../elements/27af5f62-9f42-4a5d-8c4f-f103d485af76.html" target="element"> Svarrarapport</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Kodeverk</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Kodeverk</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/f78bd8d5-cbb2-4111-9792-fe69adebf331.png" alt="Kodeverk" usemap="#f78bd8d5-cbb2-4111-9792-fe69adebf331map"/>
+			   <map name="f78bd8d5-cbb2-4111-9792-fe69adebf331map">
+				  		<area shape="rect" coords="322,262,442,317" href="../elements/b1abaa7a-4d13-4069-b9d2-1d6ac432b00c.html"  target="element">
+				  		<area shape="rect" coords="12,406,132,461" href="../elements/0b2fa169-221b-4f6a-b83e-07e3318fce2d.html"  target="element">
+				  		<area shape="rect" coords="12,334,132,389" href="../elements/b7f2cd31-7357-41df-aeab-fb33e4702846.html"  target="element">
+				  		<area shape="rect" coords="12,262,132,317" href="../elements/ff327de6-74d1-4502-9678-f21b465439e5.html"  target="element">
+				  		<area shape="rect" coords="12,184,132,239" href="../elements/1d190b6a-01c0-4bc2-8546-c76ba68732c2.html"  target="element">
+				  		<area shape="rect" coords="742,10,862,65" href="../elements/b71d99b0-1497-4101-93a6-c20ed9692155.html"  target="element">
+				  		<area shape="rect" coords="190,10,310,65" href="../elements/e38573cd-cd4a-427a-8b02-2e007bb75a26.html"  target="element">
+				  		<area shape="rect" coords="10,10,130,65" href="../elements/6dce8bde-990d-40ab-b38a-6c0a75e1817f.html"  target="element">
+				  		<area shape="rect" coords="550,10,670,65" href="../elements/e56cf605-5c90-4797-b800-33aff27c6b39.html"  target="element">
+				  		<area shape="rect" coords="358,10,478,65" href="../elements/50fff9f6-01b1-4116-a0f6-a46976160ab4.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/50fff9f6-01b1-4116-a0f6-a46976160ab4.html" target="element"> Prosedyrekodeverk for Patologi </a> </td>
+											    <td> <a href="../elements/50fff9f6-01b1-4116-a0f6-a46976160ab4.html" target="element" class="i18n-elementtype-Product">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/e56cf605-5c90-4797-b800-33aff27c6b39.html" target="element"> NORPAT </a> </td>
+											    <td> <a href="../elements/e56cf605-5c90-4797-b800-33aff27c6b39.html" target="element" class="i18n-elementtype-Product">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/6dce8bde-990d-40ab-b38a-6c0a75e1817f.html" target="element"> SNOMED CT </a> </td>
+											    <td> <a href="../elements/6dce8bde-990d-40ab-b38a-6c0a75e1817f.html" target="element" class="i18n-elementtype-Product">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/e38573cd-cd4a-427a-8b02-2e007bb75a26.html" target="element"> Mapping SNOMED - NORPAT </a> </td>
+											    <td> <a href="../elements/e38573cd-cd4a-427a-8b02-2e007bb75a26.html" target="element" class="i18n-elementtype-BusinessService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/b71d99b0-1497-4101-93a6-c20ed9692155.html" target="element"> SNOMED 1.4 </a> </td>
+											    <td> <a href="../elements/b71d99b0-1497-4101-93a6-c20ed9692155.html" target="element" class="i18n-elementtype-Product">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/1d190b6a-01c0-4bc2-8546-c76ba68732c2.html" target="element"> pTNM </a> </td>
+											    <td> <a href="../elements/1d190b6a-01c0-4bc2-8546-c76ba68732c2.html" target="element" class="i18n-elementtype-Product">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/ff327de6-74d1-4502-9678-f21b465439e5.html" target="element"> Helsepersonellregisteret </a> </td>
+											    <td> <a href="../elements/ff327de6-74d1-4502-9678-f21b465439e5.html" target="element" class="i18n-elementtype-Product">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/b7f2cd31-7357-41df-aeab-fb33e4702846.html" target="element"> Adresseregisteret </a> </td>
+											    <td> <a href="../elements/b7f2cd31-7357-41df-aeab-fb33e4702846.html" target="element" class="i18n-elementtype-Product">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/0b2fa169-221b-4f6a-b83e-07e3318fce2d.html" target="element"> Demografi kodeverk </a> </td>
+											    <td> <a href="../elements/0b2fa169-221b-4f6a-b83e-07e3318fce2d.html" target="element" class="i18n-elementtype-Product">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/b1abaa7a-4d13-4069-b9d2-1d6ac432b00c.html" target="element"> Kodeverk for analyseresulteter </a> </td>
+											    <td> <a href="../elements/b1abaa7a-4d13-4069-b9d2-1d6ac432b00c.html" target="element" class="i18n-elementtype-Product">
+											    </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/e2229c32-25ab-4768-bcb0-70c9e6065dbd.html" target="element">  </a> </td>
+																		<td> <a href="../elements/e2229c32-25ab-4768-bcb0-70c9e6065dbd.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/50fff9f6-01b1-4116-a0f6-a46976160ab4.html" target="element"> Prosedyrekodeverk for Patologi </a> </td>
+																		<td> <a href="../elements/e38573cd-cd4a-427a-8b02-2e007bb75a26.html" target="element"> Mapping SNOMED - NORPAT </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/39de8ba4-39e5-4fc0-8b47-54669f80e1fa.html" target="element">  </a> </td>
+																		<td> <a href="../elements/39de8ba4-39e5-4fc0-8b47-54669f80e1fa.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/e56cf605-5c90-4797-b800-33aff27c6b39.html" target="element"> NORPAT </a> </td>
+																		<td> <a href="../elements/b71d99b0-1497-4101-93a6-c20ed9692155.html" target="element"> SNOMED 1.4 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/c5190361-2122-44dd-a897-4669354c0499.html" target="element">  </a> </td>
+																		<td> <a href="../elements/c5190361-2122-44dd-a897-4669354c0499.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/e56cf605-5c90-4797-b800-33aff27c6b39.html" target="element"> NORPAT </a> </td>
+																		<td> <a href="../elements/50fff9f6-01b1-4116-a0f6-a46976160ab4.html" target="element"> Prosedyrekodeverk for Patologi </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/c4ecce84-b81e-4055-831c-b6a03113314a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/c4ecce84-b81e-4055-831c-b6a03113314a.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/6dce8bde-990d-40ab-b38a-6c0a75e1817f.html" target="element"> SNOMED CT </a> </td>
+																		<td> <a href="../elements/e38573cd-cd4a-427a-8b02-2e007bb75a26.html" target="element"> Mapping SNOMED - NORPAT </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
